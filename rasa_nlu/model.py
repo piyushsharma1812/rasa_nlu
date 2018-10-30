@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 
 MINIMUM_COMPATIBLE_VERSION = "0.13.0a2"
 
-
+## tested for git
 class InvalidProjectError(Exception):
     """Raised when a model failed to load.
 
